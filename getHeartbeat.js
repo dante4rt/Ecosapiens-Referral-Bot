@@ -6,7 +6,7 @@ async function getHeartbeat() {
       url: 'https://api.getwaitlist.com/api/v1/widget_heartbeats',
       method: 'POST',
       data: {
-        location: 'https://ecosapiens.xyz/elesapien?ref_id=JTBJ8XHXC',
+        location: 'https://ecosapiens.xyz/elesapien',
         waitlist_id: '13047',
         referrer: '',
         widget_type: 'WIDGET_1',
