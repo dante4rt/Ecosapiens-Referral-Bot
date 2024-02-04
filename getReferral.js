@@ -19,6 +19,8 @@ async function getReferral(url, heartbeatid, emailAddress, address) {
         ],
       },
     });
+
+    return data;
   } catch (error) {
     console.log('error in getReferral: ' + error);
   }
