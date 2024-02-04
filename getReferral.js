@@ -19,12 +19,6 @@ async function getReferral(url, heartbeatid, emailAddress, address) {
         ],
       },
     });
-
-    if (data.created_at) {
-      console.log('referral has been created!');
-      console.log('details: ');
-      console.log(data);
-    }
   } catch (error) {
     console.log('error in getReferral: ' + error);
   }
